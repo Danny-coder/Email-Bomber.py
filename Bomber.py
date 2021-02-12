@@ -47,7 +47,7 @@ class Email_Bomber:
          if int(self.mode) > int(4) or int(self.mode) < int(1): 
              print('ERROR: Sei un pezzo di merda. GoodBye. ')
              sys.exit(1)
-    except Exception as e:
+    except Exception as e: 
         print(f'ERROR: {e}')
 
  def bomb(self):
